@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+.main-section {
+    user-select: none;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-image: url("/img/ferks-guare-KEZdWfYD-ow-unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-family: Smythe;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-inner {
+    padding: 15px 47px 40px 47px;  
+}
+
+header h2 {
+    margin-bottom: 0;
+    font-size: 39px;
+    line-height: 24px;
+    padding-bottom: 18px;
+}
+
+header p {
+    flex-shrink: 0;
+    margin-top: 0;
+    font-size: 21.422px;
+    line-height: 13.798px;
+}
+
+.service-container{
+    margin: 0;
+    padding: 30px 50px;
+}
+
+.menu-option {
+    margin-bottom: 50px;
+}
+
+.each-menu-option {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.snack-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.snack-emoji {
+    opacity: 0.72;
+    margin: 0;
+    font-family: Inter;
+    font-size: 78.72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.4px; /* 125% */
+    letter-spacing: -1.574px;
+}
+
+.snack-properties {
+    padding-top: 8px;
+    color: #000;
+    font-family: Smythe;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn-div{
+    padding: 10px;
+    border: 2px solid #DEDEDE;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 0 auto auto;
+}
+
+.add-btn {
+    border: none;
+    background: none;
+}
+
+.add-btn:focus {
+    outline: none;
+}
+
+.add-btn:active {
+    color: red;
+}
+
+.snack-name {
+    padding-bottom: 10px;
+    margin: 0; 
+    font-size: 28px;
+    line-height: 16.8px;
+}
+
+.snack-ingredient {
+    padding-bottom: 10px;
+    margin: 0;
+    color: #8B8B8B;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.snack-price {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.order-section {
+    display: none;
+    color: #000;
+    font-family: Smythe;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.order-heading {
+    padding-bottom: 50px;
+    margin: 0;
+    text-align: center;
+    line-height: 16.8px;
+    font-size: 28px;
+}
+
+.complete-order-btn {
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    padding: 18px 0;
+    border-radius: 3px;
+    background: #16DB99;
+    border: none;
+    font-family: Verdana;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.snack-order-container {
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-remove-wrapper {
+    display: flex;
+    margin:0;
+}
+
+.remove-btn{
+    border: none;
+    background: none;
+    color: #BBB;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 24px; 
+    margin: 0;
+}
+
+.remove-btn:focus {
+    outline: none;
+}
+
+.item-order {
+    font-size: 28px;
+    line-height: 16.8px;
+    margin: 0;
+}
+
+.item-order-price {
+    line-height: 24px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.total-price-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid;
+    padding: 15px 0;
+}
+
+.total-price-text {
+    font-size: 28px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.total-price {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.checkout-container {
+    display: none;
+    padding: 20px;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 50px;
+    background-color: white;
+    box-shadow: 4px 4px 200px rgba(0, 0, 0, 0.5);
+}
+
+.close-checkout {
+    float: right;
+    font-family: verdana;
+    border-radius: 50%;
+    font-size: 14px;
+    border: none;
+    padding: 2px 6px;
+    outline: none;
+}
+
+.close-checkout:hover{
+    color: white;
+    background-color: #bd301d;
+    border: 2px solid #bd301d;
+}
+
+.checkout-header {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.119px;
+    margin: 10px 0 40px 0;
+}
+
+.input {
+    padding: 10px 0 10px 8px;
+    width: 97%;
+    margin-bottom: 25px;
+    border-radius: 3.89px;
+    border: 1.297px solid #757575;
+    color: #757575;
+    font-family: Verdana;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.119px;
+}
+
+.pay-btn {
+    width: 100%;
+    border-radius: 3.89px;
+    background: #16DB99;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.119px;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.message-container {
+    margin-top: -5px;
+    border-radius: 3px;
+    background: #ECFDF5;
+    padding: 10px;
+}
+
+.message{
+    text-align: center;
+    color: #065F46;
+    font-family: Smythe;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+

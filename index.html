@@ -1,0 +1,72 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <link rel="stylesheet" href="index.css">
+       <!-- Google Font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="main-section">
+            <header>
+                <div class="header-inner">
+                    <h2>Gadzama's Diner</h2>
+                    <p>The best snacks and drinks in town.</p>
+                </div>
+            </header>
+            <!-- Menu Section -->
+            <div class="service-container">
+                <div class="menu-option" id="menu-option">
+                    
+                </div> 
+                <!-- order Section -->
+                <div class="order-section" id="order-section">
+                    <p class="order-heading">Your Order</p>
+                    <div class="order" id="order">
+                    </div>
+                    <div class="total-price-container">
+                        <p class="total-price-text">Total Price:</p>
+                        <p class="total-price" id="total-price">amount</p>
+                    </div>
+                    <button class="complete-order-btn" id="complete-order-btn">Complete Order</button>
+                </div>
+                <!-- checkout message -->
+                <div class="checkout-message" id="checkout-message">
+                    
+                </div>
+            </div>
+            <div class="checkout-container" id="checkout-container">
+                    <button class="close-checkout" id="close-checkout">X</button>
+                    <p class="checkout-header">Enter Card Details</p>
+                    <form id="checkout-form">
+                        <input 
+                            class="input"
+                            type="text" 
+                            placeholder="Enter your name"
+                            name="name" 
+                            aria-label="name"
+                            required/>
+                        <input 
+                            class="input"
+                            type="text" 
+                            placeholder="Enter card number" 
+                            name="card number"
+                            aria-label="card number"
+                            required/>
+                        <input
+                            class="input" 
+                            type="number" 
+                            placeholder="CVV" 
+                            name="cvv"
+                            aria-label="cvv"
+                            required/>
+                        <button class="pay-btn" id="pay-btn">Pay</button>
+                    </form>
+            <div>
+        </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
