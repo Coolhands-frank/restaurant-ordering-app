@@ -42,15 +42,17 @@ header p {
 
 .service-container{
     margin: 0;
-    padding: 30px 50px;
+    padding: 30px 15px;
 }
 
 .menu-option {
     margin-bottom: 50px;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .each-menu-option {
-    padding: 30px 0;
+    padding: 30px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
